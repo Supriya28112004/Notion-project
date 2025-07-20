@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Variables (Default) */
+.dark {
+  --bg-main: #1a1a3a;
+  --bg-dots: rgba(255, 255, 255, 0.05);
+  --bg-form: rgba(255, 255, 255, 0.1);
+  --bg-input: rgba(0, 0, 0, 0.2);
+  --bg-button-nav: rgba(255, 255, 255, 0.1);
+  --bg-button-nav-hover: rgba(255, 255, 255, 0.2);
+  --text-primary: #ffffff;
+  --text-secondary: #ccc;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --icon-color: #ccc;
+  --toggle-active-bg: #ffffff;
+  --toggle-active-text: #1a1a3a;
+}
+
+/* Light Mode Variables */
+.light {
+  --bg-main: #f0f2f5;
+  --bg-dots: rgba(0, 0, 0, 0.05);
+  --bg-form: rgba(255, 255, 255, 0.8);
+  --bg-input: rgba(0, 0, 0, 0.05);
+  --bg-button-nav: rgba(0, 0, 0, 0.05);
+  --bg-button-nav-hover: rgba(0, 0, 0, 0.1);
+  --text-primary: #1c1e21;
+  --text-secondary: #555;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --icon-color: #555;
+  --toggle-active-bg: #1a1a3a;
+  --toggle-active-text: #ffffff;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-main);
+  background-image: radial-gradient(circle, var(--bg-dots) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: var(--text-primary);
+}
