@@ -1,4 +1,4 @@
-<pre>
+
 ## Api's description ##
 http://localhost:3000/{endpoint} 
  ## Authentication ##
@@ -104,4 +104,4 @@ npm install tailwindcss @tailwindcss/vite
 
 
 
-</pre>
+
