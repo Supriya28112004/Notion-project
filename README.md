@@ -1,5 +1,5 @@
 
-## Api's description ##
+## Api's description. ##
 http://localhost:3000/{endpoint} 
  ## Authentication ##
 POST /api/auth/signup
